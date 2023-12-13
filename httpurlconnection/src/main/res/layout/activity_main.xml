@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ip: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textHost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Хост: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Страна: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textRegion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Регион: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Город: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Локация: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textOrg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Организация: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textTimeZone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Зона: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ipB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:onClick="onClick"
+            android:text="Enter" />
+
+        <TextView
+            android:id="@+id/textTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Температура: "
+            android:textColor="@color/purple_700"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textWindSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Скорость В: "
+            android:textColor="@color/purple_700"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textWindDirection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Направление В: "
+            android:textColor="@color/purple_700"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата: "
+            android:textColor="@color/purple_700"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/weatherB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:onClick="onClickWeather"
+            android:text="Weather" />
+    </LinearLayout>
+
+
+</RelativeLayout>
